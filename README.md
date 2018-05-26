@@ -1,5 +1,4 @@
 # ansible-gce-apache-lb
-=========
 
 Playbooks to create simple instances of gce centos/apache with load balancing
 
@@ -15,14 +14,14 @@ You need to modify the playbooks with the corresponding variables of your GCP ac
 
 ```
   vars:
-    service_account_email: *[Your gce service account email]*
-    credentials_file: *[Your json credentials file]*
-    project_id: *[Your project id]*
+    service_account_email: **Your gce service account email**
+    credentials_file: **Your json credentials file**
+    project_id: **Your project id**
 
 
-    metadata: '{"sshKeys":"*[Your gce user: Your rsa public key]*"}'
+    metadata: '{"sshKeys":" **Your gce user: Your rsa public key** "}'
 
-    remote_user: *[Your gce user]*
+    remote_user: **Your gce user**
 
 ```
 
@@ -37,7 +36,7 @@ Example Playbook Run
 You need to run the playbook specifying the private key file to connect to the gce instances:
 
 ```
-$ ansible-playbook gce-lb-apache.yml --key-file *[Your rsa private key path]*
+$ ansible-playbook gce-lb-apache.yml --key-file **Your rsa private key path**
 ```
 
 License
