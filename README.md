@@ -14,14 +14,14 @@ You need to modify the playbooks with the corresponding variables of your GCP ac
 
 ```
   vars:
-    service_account_email: **Your gce service account email**
-    credentials_file: **Your json credentials file**
-    project_id: **Your project id**
+    service_account_email: _Your gce service account email_
+    credentials_file: _Your json credentials file_
+    project_id: _Your project id_
 
 
-    metadata: '{"sshKeys":" **Your gce user: Your rsa public key** "}'
+    metadata: '{"sshKeys":" _Your gce user: Your rsa public key_ "}'
 
-    remote_user: **Your gce user**
+    remote_user: _Your gce user_
 
 ```
 
@@ -36,7 +36,7 @@ Example Playbook Run
 You need to run the playbook specifying the private key file to connect to the gce instances:
 
 ```
-$ ansible-playbook gce-lb-apache.yml --key-file **Your rsa private key path**
+$ ansible-playbook gce-lb-apache.yml --key-file _Your rsa private key path_
 ```
 
 License
