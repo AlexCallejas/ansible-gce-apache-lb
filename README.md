@@ -42,7 +42,7 @@ $ ansible-playbook gce-lb-apache.yml --key-file _Your_rsa_private_key_path_
 License
 -------
 
-BSD
+All parts of this material are made available under the terms of the [MIT License](LICENSE).
 
 Author Information
 ------------------
