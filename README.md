@@ -28,7 +28,7 @@ You need to modify the playbooks with the corresponding variables of your GCP ac
 Dependencies
 ------------
 
-These playbooks were successfully tested in Fedora 26 and CentOS 7 with Ansible 2.5.
+These playbooks were successfully tested in Fedora 34 and CentOS 8 Stream with Ansible 2.9 @ 2021.
 
 Example Playbook Run
 ----------------
@@ -47,4 +47,4 @@ All parts of this material are made available under the terms of the [MIT Licens
 Author Information
 ------------------
 
-This playbooks was created in 2018 by [Alex Callejas](https://www.twitter.com/dark_axl), blog [rootzilopochtli.com](https://www.rootzilopochtli.com/).
+This playbooks was created in 2018 and updated in 2021 by [Alex Callejas](https://www.twitter.com/dark_axl), blog [rootzilopochtli.com](https://www.rootzilopochtli.com/).
